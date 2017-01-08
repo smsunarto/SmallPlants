@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package org.terasology.smallplants;
 
 import org.terasology.math.ChunkMath;
@@ -28,7 +29,7 @@ import org.terasology.world.generator.plugin.RegisterPlugin;
 import java.util.Random;
 
 @RegisterPlugin
-public class HerbalismRasterizer implements WorldRasterizerPlugin {
+public class SmallPlantsRasterizer implements WorldRasterizerPlugin {
     private Block plant;
     private String[] plantList;
     private Random random;
@@ -36,7 +37,7 @@ public class HerbalismRasterizer implements WorldRasterizerPlugin {
     @Override
     public void initialize() {
         random = new Random();
-        plantList = new String[]{"core:TallGrass1", "core:TallGrass2", "core:TallGrass3", "core:Dandelion", "core:BrownShroom", "Alchemy:RegenHerb", "Alchemy:HealingHerb"};
+        plantList = new String[]{"core:TallGrass1", "core:TallGrass2", "core:TallGrass3", "core:Dandelion", "core:BrownShroom"};
     }
 
     @Override

@@ -1,0 +1,9 @@
+{
+    "id" : "SmallPlants",
+    "version" : "1.0.0-SNAPSHOT",
+    "author" : "smsunarto",
+    "displayName" : "SmallPlants",
+    "description" : "A new small-plant worldgen plugin for Terasology.",
+    "dependencies" : [],
+    "serverSideOnly" : false
+}

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.terasology.herbalism;
+package org.terasology.smallplants;
 
 import org.terasology.math.Region3i;
 import org.terasology.math.geom.Vector3i;
@@ -23,8 +23,8 @@ import org.terasology.world.generation.facets.base.BaseBooleanFieldFacet3D;
 /**
  * Stores where plants can be placed
  */
-public class HerbalismFacet extends BaseBooleanFieldFacet3D {
-    public HerbalismFacet(Region3i targetRegion, Border3D border) {
+public class SmallPlantsFacet extends BaseBooleanFieldFacet3D {
+    public SmallPlantsFacet(Region3i targetRegion, Border3D border) {
         super(targetRegion, border);
     }
 
